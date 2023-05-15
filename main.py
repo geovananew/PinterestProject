@@ -1,11 +1,6 @@
-from flask import Flask
+from fakepinterest import app
 
-app = Flask(__name__)
-
-@app.route("/")
-def homepage():
-    return "FakePinterest - Meu primeiro site"
 
 if __name__ == "__main__":
-    app.run(debug=True
+    app.run(debug=True)
 
